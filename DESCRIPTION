@@ -1,0 +1,21 @@
+Package: DF
+Type: Package
+Title: SNA functions and dataset for the Data Forensics course at JADS
+Version: 1.0
+Date: 2023-02-24
+Maintainer: Roger Leenders <r.t.a.j.leenders@jads.nl>
+Author: Roger Leenders <r.t.a.j.leenders@jads.nl>
+Depends:
+    R (>= 4.1.0)
+LazyLoad: yes
+Imports:
+	igraph,
+	sna
+Remotes:
+	github::SNAnalyst/snafun
+Description: Some functions and lots of datasets that are potentially useful for the Data Forensics course at JADS.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
